@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Disposable;
+import com.badlogic.gdx.utils.Logger;
 import com.badlogic.gdx.utils.viewport.FillViewport;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -106,7 +107,7 @@ public class WorldRenderer implements Disposable{
                 else
                     font.getData().setScale(1);
 
-                font.draw(batch, "" + worldController.score, 25, RocketMain.HEIGHT - 25 - RocketMain.screenCutOff);
+                font.draw(batch, "" + worldController.score, 25, RocketMain.HEIGHT - 100 - RocketMain.screenCutOff);
 
                 scaleInput(viewport);
 
