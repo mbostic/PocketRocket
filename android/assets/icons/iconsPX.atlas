@@ -1,0 +1,55 @@
+
+iconsPX.png
+size: 32,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+coin
+  rotate: false
+  xy: 15, 14
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+homePX
+  rotate: false
+  xy: 2, 26
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+homePXPressed
+  rotate: false
+  xy: 17, 26
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+pausePX
+  rotate: false
+  xy: 2, 14
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+pausePXPressed
+  rotate: false
+  xy: 2, 2
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+playPX
+  rotate: false
+  xy: 2, 74
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+playPXPressed
+  rotate: false
+  xy: 2, 41
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1

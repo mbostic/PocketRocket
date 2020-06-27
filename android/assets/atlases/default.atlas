@@ -1,0 +1,68 @@
+
+default.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 2, 2
+  size: 563, 1000
+  orig: 563, 1000
+  offset: 0, 0
+  index: -1
+fire1
+  rotate: false
+  xy: 769, 882
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+fire2
+  rotate: false
+  xy: 567, 212
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+fire3
+  rotate: false
+  xy: 769, 760
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+rocket
+  rotate: false
+  xy: 567, 669
+  size: 200, 333
+  orig: 200, 333
+  offset: 0, 0
+  index: -1
+rocketOutline
+  rotate: false
+  xy: 567, 334
+  size: 200, 333
+  orig: 200, 333
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 567, 110
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+default2.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+clouds
+  rotate: false
+  xy: 2, 2
+  size: 750, 170
+  orig: 750, 170
+  offset: 0, 0
+  index: -1

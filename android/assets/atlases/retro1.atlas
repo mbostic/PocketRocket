@@ -1,0 +1,62 @@
+
+retro1.png
+size: 256,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 2, 42
+  size: 90, 96
+  orig: 90, 96
+  offset: 0, 0
+  index: -1
+clouds
+  rotate: false
+  xy: 2, 20
+  size: 90, 20
+  orig: 90, 20
+  offset: 0, 0
+  index: -1
+fire1
+  rotate: false
+  xy: 94, 122
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+fire2
+  rotate: false
+  xy: 2, 2
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+fire3
+  rotate: false
+  xy: 94, 104
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+rocket
+  rotate: false
+  xy: 2, 140
+  size: 105, 280
+  orig: 105, 280
+  offset: 0, 0
+  index: -1
+rocketOutline
+  rotate: false
+  xy: 109, 140
+  size: 105, 280
+  orig: 105, 280
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 216, 400
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+allSkins.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+rocket1
+  rotate: false
+  xy: 104, 72
+  size: 100, 167
+  orig: 100, 167
+  offset: 0, 0
+  index: -1
+rocket2
+  rotate: false
+  xy: 2, 241
+  size: 100, 267
+  orig: 100, 267
+  offset: 0, 0
+  index: -1
+rocket3
+  rotate: false
+  xy: 2, 2
+  size: 100, 237
+  orig: 100, 237
+  offset: 0, 0
+  index: -1
+rocketOutline1
+  rotate: false
+  xy: 206, 102
+  size: 100, 167
+  orig: 100, 167
+  offset: 0, 0
+  index: -1
+rocketOutline2
+  rotate: false
+  xy: 104, 241
+  size: 100, 267
+  orig: 100, 267
+  offset: 0, 0
+  index: -1
+rocketOutline3
+  rotate: false
+  xy: 206, 271
+  size: 100, 237
+  orig: 100, 237
+  offset: 0, 0
+  index: -1

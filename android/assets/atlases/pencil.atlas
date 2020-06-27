@@ -1,0 +1,117 @@
+
+pencil.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+line
+  rotate: false
+  xy: 2, 2
+  size: 1, 2
+  orig: 1, 2
+  offset: 0, 0
+  index: -1
+lineDraw
+  rotate: false
+  xy: 846, 999
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+rocket
+  rotate: false
+  xy: 2, 6
+  size: 420, 994
+  orig: 420, 994
+  offset: 0, 0
+  index: -1
+rocketOutline
+  rotate: false
+  xy: 424, 6
+  size: 420, 994
+  orig: 420, 994
+  offset: 0, 0
+  index: -1
+
+pencil2.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+doodel1
+  rotate: false
+  xy: 204, 269
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel10
+  rotate: false
+  xy: 608, 137
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel11
+  rotate: false
+  xy: 2, 134
+  size: 200, 131
+  orig: 200, 131
+  offset: 0, 0
+  index: -1
+doodel2
+  rotate: false
+  xy: 2, 2
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel3
+  rotate: false
+  xy: 204, 137
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel4
+  rotate: false
+  xy: 406, 269
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel5
+  rotate: false
+  xy: 204, 5
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel6
+  rotate: false
+  xy: 406, 137
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel7
+  rotate: false
+  xy: 608, 269
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
+doodel8
+  rotate: false
+  xy: 2, 267
+  size: 200, 132
+  orig: 200, 132
+  offset: 0, 0
+  index: -1
+doodel9
+  rotate: false
+  xy: 406, 5
+  size: 200, 130
+  orig: 200, 130
+  offset: 0, 0
+  index: -1
