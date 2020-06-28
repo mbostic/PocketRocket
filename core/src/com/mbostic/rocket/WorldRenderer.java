@@ -107,7 +107,7 @@ public class WorldRenderer implements Disposable{
                     font.getData().setScale(1);
 
 
-                if(((float)Gdx.graphics.getHeight())/((float)Gdx.graphics.getWidth()) < 2.0) {
+                if(((float)Gdx.graphics.getHeight())/((float)Gdx.graphics.getWidth()) < 1.8) {
                     font.draw(batch, "" + worldController.score, 25, RocketMain.HEIGHT - 25 - RocketMain.screenCutOffTop);
                 } else {
                     font.draw(batch, "" + worldController.score, 50, RocketMain.HEIGHT - 25);

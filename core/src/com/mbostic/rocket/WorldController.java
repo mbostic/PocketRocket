@@ -75,7 +75,7 @@ public class WorldController extends InputAdapter implements GestureDetector.Ges
             background = new Background();
         scalePoints = new Vector2();
         swipeDistance = new Vector2();
-        if(((float)Gdx.graphics.getHeight())/((float)Gdx.graphics.getWidth()) < 2.0) {
+        if(((float)Gdx.graphics.getHeight())/((float)Gdx.graphics.getWidth()) < 1.8) {
 
             pause = new Icon(Assets.instance.pauseGame, Assets.instance.pauseGamePressed, RocketMain.WIDTH - 25 - 60,
                     RocketMain.HEIGHT - 25 - 60 - (int) RocketMain.screenCutOffTop, 60, 60);

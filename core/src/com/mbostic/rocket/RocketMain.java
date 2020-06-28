@@ -43,6 +43,7 @@ public class RocketMain extends Game {
 		Assets.instance.init();
 		screenCutOffTop =
 				(RocketMain.HEIGHT - (float)Gdx.graphics.getHeight()/Gdx.graphics.getWidth()*RocketMain.WIDTH)/2f;
+		screenCutOffTop = screenCutOffTop > 0 ? screenCutOffTop : 0;
 
 		this.setScreen(new MenuScreen(this));
 	}
@@ -51,6 +52,8 @@ public class RocketMain extends Game {
 	public void resize(int width, int height) {
 		screenCutOffTop =
 				(RocketMain.HEIGHT - (float)height/width*RocketMain.WIDTH)/2.0f;
+		screenCutOffTop = screenCutOffTop > 0 ? screenCutOffTop : 0;
+
 	}
 
 	@Override
