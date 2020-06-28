@@ -24,7 +24,7 @@ public class Rocket {
     public Rocket(){
         regionRocket = Assets.instance.rocket;
         size = new Vector2(120, 120 * regionRocket.getRegionHeight()/regionRocket.getRegionWidth());
-        position = new Vector2(RocketMain.WIDTH/2 - size.x/2, 260 - size.y/2 + RocketMain.screenCutOff);
+        position = new Vector2(RocketMain.WIDTH/2 - size.x/2, 260 - size.y/2 + RocketMain.screenCutOffTop);
         velocity = new Vector2(0, 0);
         regionN = 1;
 

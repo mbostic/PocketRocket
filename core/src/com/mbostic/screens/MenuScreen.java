@@ -91,7 +91,7 @@ public class MenuScreen implements Screen, InputProcessor {
 
         Assets.instance.load();
         rocket = new Rocket();
-        Rocket.position.y -=  RocketMain.screenCutOff;
+        Rocket.position.y -=  RocketMain.screenCutOffTop > 0 ? RocketMain.screenCutOffTop : 0;
 
         if(MenuScreen.skin != SKIN.PENCIL)
             background = new Background();

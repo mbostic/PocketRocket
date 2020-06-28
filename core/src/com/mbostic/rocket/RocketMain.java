@@ -16,7 +16,7 @@ public class RocketMain extends Game {
 
 	public final static int WIDTH = 720;
 	public final static int HEIGHT = 1280;
-	public static float screenCutOff;
+	public static float screenCutOffTop;
 	public static float fontScale = 1.0f;
 	public static boolean menu, desktop;//ce je v menuju
 
@@ -41,7 +41,7 @@ public class RocketMain extends Game {
 				+ Gdx.graphics.getHeight()*Gdx.graphics.getHeight())/Gdx.graphics.getPpiX() < 3.5)
 			fontScale = 1.4f;// ce je majhen ekran
 		Assets.instance.init();
-		screenCutOff =
+		screenCutOffTop =
 				(RocketMain.HEIGHT - (float)Gdx.graphics.getHeight()/Gdx.graphics.getWidth()*RocketMain.WIDTH)/2f;
 
 		this.setScreen(new MenuScreen(this));
@@ -49,7 +49,7 @@ public class RocketMain extends Game {
 
 	@Override
 	public void resize(int width, int height) {
-		screenCutOff =
+		screenCutOffTop =
 				(RocketMain.HEIGHT - (float)height/width*RocketMain.WIDTH)/2.0f;
 	}
 

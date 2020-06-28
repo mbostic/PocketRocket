@@ -5,7 +5,6 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.mbostic.rocket.Assets;
 import com.mbostic.rocket.RocketMain;
-import com.mbostic.screens.MenuScreen;
 
 public class Background {
 
@@ -18,7 +17,7 @@ public class Background {
     public Background(){
         region = Assets.instance.background;
         size = new Vector2(720, 720 * region.getRegionHeight()/region.getRegionWidth());
-        position = new Vector2(0, RocketMain.screenCutOff);
+        position = new Vector2(0, RocketMain.screenCutOffTop);
         yVelocity = -40;
 
     }
