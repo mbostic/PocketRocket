@@ -52,11 +52,8 @@ public class WorldController extends InputAdapter implements GestureDetector.Ges
                 troughWall = true;
                 break;
             }
-            case THROUGH_WALL:{
-                troughWall = true;
-                break;
-            }
-            case ACCELERATING:{
+            case THROUGH_WALL:
+            case ACCELERATING: {
                 troughWall = true;
                 break;
             }
