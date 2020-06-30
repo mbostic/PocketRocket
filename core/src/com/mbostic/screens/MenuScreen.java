@@ -75,7 +75,7 @@ public class MenuScreen implements Screen, InputProcessor {
         iconYOffset = RocketMain.fontScale == 1.0f ? 0 : 20;
         settingsYOffset = RocketMain.fontScale == 1.0f ? 0 : 110;
         //zamik zaradi reklam
-        bannerAdHeight = RocketMain.adsController.bannerShown() ? 80 : 0;
+        bannerAdHeight = RocketMain.adsController.bannerShown() ? 110 : 0;
 
         //nastavi skin
 
@@ -143,9 +143,9 @@ public class MenuScreen implements Screen, InputProcessor {
                 RocketMain.WIDTH / 2 + (RocketMain.fontScale == 1.0f ? 195 : 200), 40 - iconYOffset + bannerAdHeight, arrowWidth, arrowHeight);
 
         settings = new Icon(Assets.instance.settings, Assets.instance.settingsPressed,
-                RocketMain.WIDTH *3/4 - 70 + 30, 240, 140, 140);
+                RocketMain.WIDTH *3/4 - 70 + 30, 260, 140, 140);
         gamble = new Icon(Assets.instance.gamble, Assets.instance.gamblePressed,
-                RocketMain.WIDTH /4 - 70 - 30, 240, 140, 140);
+                RocketMain.WIDTH /4 - 70 - 30, 260, 140, 140);
 
         sound = new Icon(Assets.instance.button, Assets.instance.buttonPressed,
                 2*RocketMain.WIDTH - 220 + 2*settingsYOffset,
@@ -200,7 +200,7 @@ public class MenuScreen implements Screen, InputProcessor {
     public void show() {
 
         batch = new SpriteBatch();
-        bannerAdHeight = RocketMain.adsController.bannerShown() ? 80 : 0;
+        bannerAdHeight = RocketMain.adsController.bannerShown() ? 110 : 0;
         rightArrowSkin.position.y = leftArrowSkin.position.y = 40 - iconYOffset + bannerAdHeight;
 
 
